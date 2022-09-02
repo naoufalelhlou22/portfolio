@@ -24,14 +24,14 @@
   $contact->subject ="Notify me request";
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-  
+  /*
   $contact->smtp = array(
     'host' => 'pop.gmail.com',
     'username' => 'Naoufal EL HLOU',
     'password' => '',
     'port' => '995'
   );
-  
+  */
 
   $contact->add_message( $_POST['name'], 'Name');
   $contact->add_message( $_POST['email'], 'Email');
