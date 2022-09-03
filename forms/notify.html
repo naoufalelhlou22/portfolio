@@ -1,0 +1,13 @@
+<?php
+ <script src="https://smtpjs.com/v3/smtp.js">
+    Email.send({
+    Host : "smtp.yourisp.com",
+    Username : "nawfallhlou2@gmail.com",
+    Password : "26AC1C67ACDFEC670E37D1611A19E3F94BC6",
+    To : 'naoufal.elhlou@etu.uae.ac.ma',
+    From : $_POST['name'],
+    Subject : "Notify me request",
+    Body : "Notify me request"
+    }).then(message => alert(message));
+  </script>
+?>
